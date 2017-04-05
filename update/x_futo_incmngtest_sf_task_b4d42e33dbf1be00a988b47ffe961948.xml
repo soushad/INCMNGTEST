@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_futo_incmngtest_sf_task">
+    <x_futo_incmngtest_sf_task action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string/>
+        <business_rule/>
+        <change_client_script/>
+        <client_script/>
+        <comment>INCMNGTEST Request State flow</comment>
+        <derived_from display_value="Resume ${Request_Label}">21feb353df312100dca6a5f59bf263e5</derived_from>
+        <end_text/>
+        <ending_state/>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition/>
+        <manual_roles/>
+        <manual_script><![CDATA[action.setRedirectURL(current);
+var st = new global.SMTask();
+var parent = st.getParent(current);
+if(parent && !st.isClosed(parent) && st.isParentSuspended(current)) {
+   parent.sla_suspended = false;
+   parent.sla_suspended_on = "";
+   parent.update();
+}]]></manual_script>
+        <manual_string>var st=new global.SMTask(); !st.isClosed(current) &amp;&amp; !current.parent.nil() &amp;&amp; st.isParentSuspended(current) &amp;&amp; !st.isClosed(current.parent)</manual_string>
+        <name>Resume INCMNGTEST Request</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010035</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text/>
+        <starting_state/>
+        <sys_class_name>x_futo_incmngtest_sf_task</sys_class_name>
+        <sys_created_by>david.deschryver</sys_created_by>
+        <sys_created_on>2017-04-05 09:29:55</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b4d42e33dbf1be00a988b47ffe961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resume INCMNGTEST Request</sys_name>
+        <sys_package display_value="INCMNGTEST" source="x_futo_incmngtest">62c466ffdbb1be00a988b47ffe9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="INCMNGTEST">62c466ffdbb1be00a988b47ffe9619d4</sys_scope>
+        <sys_update_name>x_futo_incmngtest_sf_task_b4d42e33dbf1be00a988b47ffe961948</sys_update_name>
+        <sys_updated_by>david.deschryver</sys_updated_by>
+        <sys_updated_on>2017-04-05 09:29:55</sys_updated_on>
+        <table>x_futo_incmngtest_task</table>
+        <translated_ending_state/>
+        <translated_starting_state/>
+        <ui_action display_value="Resume Parent">f4d42e33dbf1be00a988b47ffe961948</ui_action>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </x_futo_incmngtest_sf_task>
+</record_update>

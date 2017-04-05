@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8ad42e33dbf1be00a988b47ffe9619ab</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_group_has_role">
+    <sys_group_has_role action="INSERT_OR_UPDATE">
+        <granted_by/>
+        <group display_value="INCMNGTEST Assignment" name="INCMNGTEST Assignment">ced42e33dbf1be00a988b47ffe9619aa</group>
+        <inherits>true</inherits>
+        <role display_value="x_futo_incmngtest_agent" name="x_futo_incmngtest_agent">6bc4ea33dbf1be00a988b47ffe9619e8</role>
+        <sys_created_by>david.deschryver</sys_created_by>
+        <sys_created_on>2017-04-05 09:30:00</sys_created_on>
+        <sys_id>8ad42e33dbf1be00a988b47ffe9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.deschryver</sys_updated_by>
+        <sys_updated_on>2017-04-05 09:30:00</sys_updated_on>
+    </sys_group_has_role>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>david.deschryver</sys_created_by>
+        <sys_created_on>2017-04-05 09:30:45</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7005ae33dbf1be00a988b47ffe9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 05-04-2017 11:30:00</sys_name>
+        <sys_package display_value="INCMNGTEST" source="x_futo_incmngtest">62c466ffdbb1be00a988b47ffe9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="INCMNGTEST">62c466ffdbb1be00a988b47ffe9619d4</sys_scope>
+        <sys_update_name>sys_metadata_link_7005ae33dbf1be00a988b47ffe9619e8</sys_update_name>
+        <sys_updated_by>david.deschryver</sys_updated_by>
+        <sys_updated_on>2017-04-05 09:30:45</sys_updated_on>
+        <tablename>sys_group_has_role</tablename>
+    </sys_metadata_link>
+</record_update>

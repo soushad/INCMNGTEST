@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_gauge">
+    <sys_gauge action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <aggregate>COUNT</aggregate>
+        <attributes/>
+        <fieldname/>
+        <group_field/>
+        <lower_limit/>
+        <name>INCMNGTEST Group Usage</name>
+        <order/>
+        <other_threshold>-2</other_threshold>
+        <parent/>
+        <query/>
+        <report display_value="INCMNGTEST Group Usage">2bf4ae33dbf1be00a988b47ffe9619ac</report>
+        <roles/>
+        <stack_field/>
+        <sys_class_name>sys_gauge</sys_class_name>
+        <sys_created_by>david.deschryver</sys_created_by>
+        <sys_created_on>2017-04-05 09:30:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>aff4ae33dbf1be00a988b47ffe9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>INCMNGTEST Group Usage</sys_name>
+        <sys_package display_value="INCMNGTEST" source="x_futo_incmngtest">62c466ffdbb1be00a988b47ffe9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="INCMNGTEST">62c466ffdbb1be00a988b47ffe9619d4</sys_scope>
+        <sys_update_name>sys_gauge_aff4ae33dbf1be00a988b47ffe9619ac</sys_update_name>
+        <sys_updated_by>david.deschryver</sys_updated_by>
+        <sys_updated_on>2017-04-05 09:30:39</sys_updated_on>
+        <tablename>x_futo_incmngtest_task</tablename>
+        <title>INCMNGTEST Group Usage</title>
+        <type>report</type>
+        <upper_limit/>
+        <url/>
+        <view/>
+    </sys_gauge>
+</record_update>

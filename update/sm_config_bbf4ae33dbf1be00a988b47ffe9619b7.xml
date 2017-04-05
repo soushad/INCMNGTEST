@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_config">
+    <sm_config action="INSERT_OR_UPDATE">
+        <accept_reject>true</accept_reject>
+        <active>true</active>
+        <admin_role display_value="x_futo_incmngtest_admin" name="x_futo_incmngtest_admin">dbc4ea33dbf1be00a988b47ffe9619e7</admin_role>
+        <agent_role display_value="x_futo_incmngtest_agent" name="x_futo_incmngtest_agent">6bc4ea33dbf1be00a988b47ffe9619e8</agent_role>
+        <app_name>incmngtest</app_name>
+        <approval>true</approval>
+        <approval_workflow display_value="Approval Workflow for SM">da95b573d7322100bbc783e80e610360</approval_workflow>
+        <approver_role display_value="x_futo_incmngtest_approver_user" name="x_futo_incmngtest_approver_user">e7c4ea33dbf1be00a988b47ffe9619e9</approver_role>
+        <associated_task_tables/>
+        <auto_dispatch>true</auto_dispatch>
+        <basic_role display_value="x_futo_incmngtest_basic" name="x_futo_incmngtest_basic">67c4ea33dbf1be00a988b47ffe9619ea</basic_role>
+        <catalog display_value="INCMNGTEST Catalog">0af4ae33dbf1be00a988b47ffe961940</catalog>
+        <created_with_version>Helsinki: 10-25-2016_1048</created_with_version>
+        <disabled_processes/>
+        <dispatch_group_type display_value="incmngtest_dispatch">cad42e33dbf1be00a988b47ffe9619aa</dispatch_group_type>
+        <dispatch_queue>true</dispatch_queue>
+        <dispatcher_role display_value="x_futo_incmngtest_dispatcher" name="x_futo_incmngtest_dispatcher">e3c4ea33dbf1be00a988b47ffe9619eb</dispatcher_role>
+        <follow_the_sun_priority>{value:,type:,display:}</follow_the_sun_priority>
+        <geolocation_maps>false</geolocation_maps>
+        <inbound_email>false</inbound_email>
+        <initiator_role display_value="x_futo_incmngtest_initiator" name="x_futo_incmngtest_initiator">63c4ea33dbf1be00a988b47ffe9619ec</initiator_role>
+        <kbase display_value="INCMNGTEST Knowledge">9ef4ae33dbf1be00a988b47ffe961944</kbase>
+        <knowledge_base>true</knowledge_base>
+        <limit_by_location>true</limit_by_location>
+        <main_model_category display_value="INCMNGTEST Request Template">ecf46e33dbf1be00a988b47ffe961963</main_model_category>
+        <main_model_table>x_futo_incmngtest_request_template</main_model_table>
+        <main_state_flow_table>x_futo_incmngtest_sf_request</main_state_flow_table>
+        <main_table>x_futo_incmngtest_request</main_table>
+        <managed_docs>true</managed_docs>
+        <mandatory_work_notes>true</mandatory_work_notes>
+        <name>INCMNGTEST</name>
+        <part_requirement>true</part_requirement>
+        <property_prefix>x_futo_incmngtest</property_prefix>
+        <qualification>false</qualification>
+        <qualification_group_type/>
+        <qualifier_role/>
+        <read_role display_value="x_futo_incmngtest_read" name="x_futo_incmngtest_read">efc4ea33dbf1be00a988b47ffe9619ec</read_role>
+        <request_dispatch_method>auto</request_dispatch_method>
+        <request_dispatch_workflow display_value="Request Assignment Workflow for SM">879cca02d7100200e5eb83e80e6103fc</request_dispatch_workflow>
+        <request_driven>false</request_driven>
+        <rollup_work_notes>false</rollup_work_notes>
+        <service_catalog>true</service_catalog>
+        <surveys/>
+        <sys_class_name>sm_config</sys_class_name>
+        <sys_created_by>david.deschryver</sys_created_by>
+        <sys_created_on>2017-04-05 09:30:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>bbf4ae33dbf1be00a988b47ffe9619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>INCMNGTEST</sys_name>
+        <sys_package display_value="INCMNGTEST" source="x_futo_incmngtest">62c466ffdbb1be00a988b47ffe9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="INCMNGTEST">62c466ffdbb1be00a988b47ffe9619d4</sys_scope>
+        <sys_update_name>sm_config_bbf4ae33dbf1be00a988b47ffe9619b7</sys_update_name>
+        <sys_updated_by>david.deschryver</sys_updated_by>
+        <sys_updated_on>2017-04-05 09:30:40</sys_updated_on>
+        <task_activities>false</task_activities>
+        <task_dispatch_method>auto</task_dispatch_method>
+        <task_dispatch_workflow display_value="Assignment Workflow for SM">e1865971d7132100bbc783e80e610365</task_dispatch_workflow>
+        <task_model_category display_value="INCMNGTEST Task Template">70f46e33dbf1be00a988b47ffe961964</task_model_category>
+        <task_model_table>x_futo_incmngtest_task_template</task_model_table>
+        <task_state_flow_table>x_futo_incmngtest_sf_task</task_state_flow_table>
+        <task_table>x_futo_incmngtest_task</task_table>
+        <task_work_group_type/>
+        <templates_to_catalog>true</templates_to_catalog>
+        <track_travel>true</track_travel>
+        <use_consistent_assignment>false</use_consistent_assignment>
+        <use_follow_the_sun>true</use_follow_the_sun>
+        <use_location>true</use_location>
+        <use_schedule>false</use_schedule>
+        <use_sf>true</use_sf>
+        <use_skill>all</use_skill>
+        <use_timezone>true</use_timezone>
+        <user_created>true</user_created>
+        <vendor_group_type display_value="incmngtest_vendor">4ed42e33dbf1be00a988b47ffe9619aa</vendor_group_type>
+        <work_group_type display_value="incmngtest">4ad42e33dbf1be00a988b47ffe9619aa</work_group_type>
+    </sm_config>
+</record_update>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0ed42e33dbf1be00a988b47ffe9619ab</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_group">
+    <sys_user_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <cost_center/>
+        <default_assignee/>
+        <description/>
+        <email/>
+        <exclude_manager>false</exclude_manager>
+        <include_members>false</include_members>
+        <manager/>
+        <name>INCMNGTEST Dispatchers</name>
+        <parent/>
+        <roles/>
+        <source/>
+        <sys_created_by>david.deschryver</sys_created_by>
+        <sys_created_on>2017-04-05 09:30:00</sys_created_on>
+        <sys_id>0ed42e33dbf1be00a988b47ffe9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.deschryver</sys_updated_by>
+        <sys_updated_on>2017-04-05 09:30:00</sys_updated_on>
+        <type>cad42e33dbf1be00a988b47ffe9619aa</type>
+        <u_classification/>
+        <u_company/>
+        <u_contractor_id/>
+        <u_email/>
+        <u_external_company/>
+        <u_group_fax/>
+        <u_group_phone/>
+        <u_main_contract/>
+        <u_pin_code>00000</u_pin_code>
+        <u_schedule/>
+        <u_updated_pin/>
+        <u_valid_pin_code>false</u_valid_pin_code>
+        <vendors/>
+    </sys_user_group>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>david.deschryver</sys_created_by>
+        <sys_created_on>2017-04-05 09:30:45</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>0905ae33dbf1be00a988b47ffe9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>INCMNGTEST Dispatchers</sys_name>
+        <sys_package display_value="INCMNGTEST" source="x_futo_incmngtest">62c466ffdbb1be00a988b47ffe9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="INCMNGTEST">62c466ffdbb1be00a988b47ffe9619d4</sys_scope>
+        <sys_update_name>sys_metadata_link_0905ae33dbf1be00a988b47ffe9619e8</sys_update_name>
+        <sys_updated_by>david.deschryver</sys_updated_by>
+        <sys_updated_on>2017-04-05 09:30:45</sys_updated_on>
+        <tablename>sys_user_group</tablename>
+    </sys_metadata_link>
+</record_update>

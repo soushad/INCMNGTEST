@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <application display_value="INCMNGTEST">0c05ae33dbf1be00a988b47ffe9619bc</application>
+        <filter/>
+        <name>My Dispatch Map</name>
+        <order>182</order>
+        <path>sm_dispatch/incmngtest</path>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_futo_incmngtest_dispatcher</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>david.deschryver</sys_created_by>
+        <sys_created_on>2017-04-05 09:30:41</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c05ae33dbf1be00a988b47ffe9619c0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Dispatch Map</sys_name>
+        <sys_package display_value="INCMNGTEST" source="x_futo_incmngtest">62c466ffdbb1be00a988b47ffe9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="INCMNGTEST">62c466ffdbb1be00a988b47ffe9619d4</sys_scope>
+        <sys_update_name>sys_ui_module_8c05ae33dbf1be00a988b47ffe9619c0</sys_update_name>
+        <sys_updated_by>david.deschryver</sys_updated_by>
+        <sys_updated_on>2017-04-05 09:30:42</sys_updated_on>
+        <table/>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

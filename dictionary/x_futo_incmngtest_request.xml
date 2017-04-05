@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="sm_order" label="Incmngtest Request" max_length="40" name="x_futo_incmngtest_request" type="collection"/>
+</database>

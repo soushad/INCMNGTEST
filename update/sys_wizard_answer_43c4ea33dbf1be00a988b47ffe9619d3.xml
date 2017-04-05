@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>INCMNGTEST Request Template</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>INCMNGTEST Request Template</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Create a new service order model" name="Create a new service order model">afc78f61df322100dca6a5f59bf26350</question>
+        <roles>x_futo_incmngtest_admin,model_manager,template_admin</roles>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>david.deschryver</sys_created_by>
+        <sys_created_on>2017-04-05 09:29:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>43c4ea33dbf1be00a988b47ffe9619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>INCMNGTEST Request Template</sys_name>
+        <sys_package display_value="INCMNGTEST" source="x_futo_incmngtest">62c466ffdbb1be00a988b47ffe9619d4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="INCMNGTEST">62c466ffdbb1be00a988b47ffe9619d4</sys_scope>
+        <sys_update_name>sys_wizard_answer_43c4ea33dbf1be00a988b47ffe9619d3</sys_update_name>
+        <sys_updated_by>david.deschryver</sys_updated_by>
+        <sys_updated_on>2017-04-05 09:29:48</sys_updated_on>
+        <table/>
+        <target_url>$sm_templates.do?sysparm_record_target=x_futo_incmngtest_request_template&amp;sysparm_title=INCMNGTEST Request Templates&amp;sysparm_app_name=incmngtest</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
